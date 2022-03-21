@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utc-8">
+	<title>Formulário</title>
+</head>
+
+<body>
+	<form>
+		<p>
+			<label>
+				Nome: 
+				<input type="text" required>
+			</label>
+		</p>
+		<p>
+			<label>
+				Sobrenome: 
+				<input type="text" required>
+			</label>
+		</p>
+		<p>
+			<label>
+				Email:
+				<input type="email" placeholder="meu@email.com" required>
+			</label>
+		</p>
+		<p>
+			<details>
+				<label>
+					Selecione seu semestre: 
+					<input type="number" min="1" max="8" step="1" value="1">
+				</label>
+			</details>
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+		</p>
+	</form>
+</body>
+</html>

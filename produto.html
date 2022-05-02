@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: darkslategray">
+
+<h1 style="font-family:'Lucida Console'; color: LightBlue" align="center">Produto de três inteiros</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h4 style="font-family:'Courier New'; color: lightcyan" align="center" id="d1"></h4>
+<h3 style="font-family:'Courier New'; color: rgb(31, 252, 141)" align="center" id="d2"></h3>
+
+<script>
+    let xVal = window.prompt("Insira o valor de x");
+    let yVal = window.prompt("Insira o valor de y");
+    let zVal = window.prompt("Insira o valor de z");
+    var x = parseInt(xVal);
+    var y = parseInt(yVal);
+    var z = parseInt(zVal);
+
+    resultado = x*y*z;
+
+    document.getElementById("d1").innerHTML = "x = " + x + "<br>y = " + y + "<br>z = " + z;
+    document.getElementById("d2").innerHTML = "O produto é " + resultado;
+</script>
+
+</body>
+</html>
